@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "wpac/app-example",
+	"title": "app-example",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "WordCamp America Central talk. https://centroamerica.wordcamp.org/2021/",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "app-example",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
