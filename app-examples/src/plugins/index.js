@@ -21,7 +21,7 @@ registerPlugin( 'wcca-plugin-sidebar', {
 			>
 				<img
 					className="portada-hero"
-					src="http://localhost:8888/wp-content/uploads/2021/04/wcca-portada-hero.png"
+					src="http://localhost:8888/wp-content/uploads/2021/04/portada-hero.png"
 				/>
 			</PluginSidebar>
 		);
