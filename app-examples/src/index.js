@@ -4,3 +4,4 @@
  */
 import './blocks';
 import './plugins';
+import './components';
