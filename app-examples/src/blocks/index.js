@@ -3,3 +3,4 @@
  */
 
 import './app-example';
+import './core-quote';
