@@ -3,8 +3,9 @@
  */
 import { addFilter } from '@wordpress/hooks';
 import { Fragment } from '@wordpress/element';
-import { BlockControls } from '@wordpress/block-editor';
-import { ToolbarGroup, ToolbarButton } from '@wordpress/components';
+import { BlockControls, InspectorControls } from '@wordpress/block-editor';
+import { ToolbarGroup, ToolbarButton, Panel, PanelBody, TextControl } from '@wordpress/components';
+import { __ } from '@wordpress/i18n';
 
 function ExtendedCoreQuoteBlockEdit ( BlockEdit ) {
 	return function ( props ) {
@@ -28,6 +29,23 @@ function ExtendedCoreQuoteBlockEdit ( BlockEdit ) {
 						/>
 					</ToolbarGroup>
 				</BlockControls>
+
+				<InspectorControls>
+					<Panel>
+						<PanelBody title={ __( 'WCCA', 'app-example' ) }>
+							<img
+								className="portada-hero"
+								src="http://localhost:8888/wp-content/uploads/2021/04/portada-hero.png"
+							/>
+
+							<TextControl
+								label={ __( 'Your name', 'app-example' ) }
+								value={ '' }
+								onChange={ console.log }
+							/>
+						</PanelBody>
+					</Panel>
+				</InspectorControls>
 				<BlockEdit { ...props } />
 			</Fragment>
 		);
