@@ -2,7 +2,7 @@
 	"apiVersion": 2,
 	"name": "wpac/app-example",
 	"title": "app-example",
-	"category": "widgets",
+	"category": "wcca",
 	"icon": "smiley",
 	"description": "WordCamp America Central talk. https://centroamerica.wordcamp.org/2021/",
 	"supports": {

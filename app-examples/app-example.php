@@ -24,3 +24,22 @@ function wpac_app_example_block_init() {
 	register_block_type_from_metadata( __DIR__ );
 }
 add_action( 'init', 'wpac_app_example_block_init' );
+
+function wcca_block_categories( $categories, $post ) {
+    if ( $post->post_type !== 'post' ) {
+        return $categories;
+    }
+
+    return array_merge(
+        $categories,
+        array(
+            array(
+                'slug' => 'wcca',
+                'title' => __( 'WordCamp Central América', 'app-example' ),
+                'icon'  => 'treepalm',
+            ),
+        )
+    );
+}
+
+add_filter( 'block_categories', 'wcca_block_categories', 10, 2 );
