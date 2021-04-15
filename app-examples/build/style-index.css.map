@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///style.scss"],"names":[],"mappings":"AAAA;;;;;EAKE;AACF;EACE,yBAAyB;EACzB,WAAW;EACX,YAAY;AACd,C;AAVA;EACE,+CAA+C;EAC/C,mBAAmB;EACnB,yEAAyE;AAC3E;;AAEA;EACE,4CAA4C;EAC5C,mBAAmB;AACrB,C;AATA;EACE,aAAa;AACf,C","file":"style-index.css","sourcesContent":[".wcca-plugin-sidebar-panel {\n  padding: 10px;\n}"],"sourceRoot":""}

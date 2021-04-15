@@ -1,0 +1,26 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wpac-app-example {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+.is-style-gradient {
+  border-right: 20px solid rgba(200, 30, 90, 0.5);
+  border-radius: 10px;
+  background: linear-gradient(to left, rgba(200, 30, 90, 0.5), transparent);
+}
+
+.is-style-shadow {
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.wcca-plugin-sidebar-panel {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
